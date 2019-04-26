@@ -1,0 +1,169 @@
+/* Reset */
+body,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{ 
+margin:0;
+padding:0;
+}
+fieldset,img { 
+border:0;
+}
+ol,ul {
+list-style:none;
+}
+a {
+outline:none;
+text-decoration:none;
+color:#393939;
+}
+
+/* General */
+body {
+background:#f1f1f1;
+color:#393939;
+font:12px/18px Arial,sans-serif;
+margin:0;
+padding:50px 0;
+}
+
+p {
+margin:10px 0;
+padding:0;
+}
+
+h2 {
+font-size:18px;
+color:#333;
+}
+
+#main {
+background:#fff;
+width:610px;
+float:left;
+margin:0 10px 10px;
+padding:0 0 25px;
+border:10px solid #ddd;
+}
+
+#main a {
+color:#000;
+font-weight:bold;
+}
+
+#main a:hover {
+color:#393939;
+}
+
+#container {
+width:630px;
+margin:0 auto;
+}
+
+#header {
+font:36px/90px Arial,sans-serif;
+font-weight:200;
+background:#fff;
+text-align:center;
+float:left;
+width:610px;
+margin:10px;
+border:10px solid #ddd;
+}
+
+.pad25 {
+padding:25px;
+}
+
+tr {
+height:30px;
+}
+
+.col1 {
+text-align:right;
+padding-right:4px;
+width:120px;
+}
+
+.col3 {
+color:gray;
+padding-left:8px;
+font-size:11px;
+}
+
+.clr {
+clear:both;
+line-height:0;
+height:0;
+}
+
+#footer {
+float:left;
+display:block;
+width:100%;
+height:45px;
+text-align:center;
+margin:5px auto;
+}
+
+.footer_inner {
+width:560px;
+text-align:center;
+font-size:10px;
+margin:0 auto;
+color:#000;
+}
+
+.button {
+font-size:14px;
+font-weight:bold;
+border:3px solid #1b7d19;
+background:#359f33;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+margin:0;
+vertical-align:bottom;
+padding:7px 12px;
+}
+
+.button span {
+color:#fff;
+}
+
+.button:hover {
+background:#279225;
+}
+
+.fail {
+background:#bc4141;
+border:3px solid #991d1d;
+}
+
+.fail:hover {
+background:#aa2525;
+}
+
+.requirement {
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+color:#000;
+font-weight:bold;
+margin-bottom:15px;
+}
+
+.requirement p {
+padding:0px 20px;
+}
+
+.error {
+background:#bc4141;
+border:3px solid #991d1d;
+color:#fff;
+}
+
+.error code {
+border-bottom: 1px dotted #fff;
+}
+
+code {
+border-bottom: 1px dotted #393939;
+}
